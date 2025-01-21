@@ -31,16 +31,11 @@ Note this will take a monent, there is approx 50GB of data.
 Download the files.
 
 ```
-curl -o db/user_files/Factory_PairCreated.tar.xz https://storage.googleapis.com/tt-blockchain-homework-eu/sql-january-2025-tar/Factory_PairCreated.tar.xz
-
-curl -o db/user_files/Pair_Burn.tar.xz https://storage.googleapis.com/tt-blockchain-homework-eu/sql-january-2025-tar/Pair_Burn.tar.xz
-curl -o db/user_files/Pair_Mint.tar.xz https://storage.googleapis.com/tt-blockchain-homework-eu/sql-january-2025-tar/Pair_Mint.tar.xz
-
-curl -o db/user_files/Pair_Swap.tar.xz https://storage.googleapis.com/tt-blockchain-homework-eu/sql-january-2025-tar/Pair_Swap.tar.xz
-curl -o db/user_files/Pair_Sync.tar.xz https://storage.googleapis.com/tt-blockchain-homework-eu/sql-january-2025-tar/Pair_Sync.tar.xz
-
+curl -o db/user_files/Factory_PoolCreated.tar.xz https://storage.googleapis.com/tt-blockchain-homework-eu/sql-january-2025-tar-uni-v3/uni_v3_Factory_PoolCreated.tar.xz
+curl -o db/user_files/uni_v3_Pool_Burn.tar.xz https://storage.googleapis.com/tt-blockchain-homework-eu/sql-january-2025-tar-uni-v3/uni_v3_Pool_Burn.tar.xz
+curl -o db/user_files/uni_v3_Pool_Mint.tar.xz https://storage.googleapis.com/tt-blockchain-homework-eu/sql-january-2025-tar-uni-v3/uni_v3_Pool_Mint.tar.xz
+curl -o db/user_files/uni_v3_Pool_Swap.tar.xz https://storage.googleapis.com/tt-blockchain-homework-eu/sql-january-2025-tar-uni-v3/uni_v3_Pool_Swap.tar.xz
 curl -o db/user_files/tokens.tar.xz https://storage.googleapis.com/tt-blockchain-homework-eu/sql-january-2025-tar/tokens.tar.xz
-curl -o db/user_files/Pair_Transfer.tar.xz https://storage.googleapis.com/tt-blockchain-homework-eu/sql-january-2025-tar/Pair_Transfer.tar.xz
 ```
 
 ### Extract the data
@@ -48,13 +43,11 @@ curl -o db/user_files/Pair_Transfer.tar.xz https://storage.googleapis.com/tt-blo
 Extract the data to the `db/user_files` folder.
 
 ```
-tar -xvf db/user_files/Factory_PairCreated.tar.xz -C db/user_files
-tar -xvf db/user_files/Pair_Burn.tar.xz -C db/user_files
-tar -xvf db/user_files/Pair_Mint.tar.xz -C db/user_files
-tar -xvf db/user_files/Pair_Swap.tar.xz -C db/user_files
-tar -xvf db/user_files/Pair_Sync.tar.xz -C db/user_files
+tar -xvf db/user_files/uni_v3_Factory_PoolCreated.tar.xz -C db/user_files
+tar -xvf db/user_files/uni_v3_Pool_Burn.tar.xz -C db/user_files
+tar -xvf db/user_files/uni_v3_Pool_Mint.tar.xz -C db/user_files
+tar -xvf db/user_files/uni_v3_Pool_Swap.tar.xz -C db/user_files
 tar -xvf db/user_files/tokens.tar.xz -C db/user_files
-tar -xvf db/user_files/Pair_Transfer.tar.xz -C db/user_files
 ```
 
 ### Import the data to clickhouse you just downloaded

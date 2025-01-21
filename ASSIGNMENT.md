@@ -2,18 +2,16 @@
 
 ## Overview
 
-This assignment evaluates your SQL expertise and understanding of DeFi fundamentals by having you analyze Uniswap V2 pairs on Ethereum to calculate token-denominated prices.
+This assignment evaluates your SQL expertise and understanding of DeFi fundamentals by having you analyze Uniswap V3 pools on Ethereum to calculate token-denominated prices.
 
 ## Task Requirements
 
 ### Core Deliverables
 
-1. Calculate daily token reserves for Uniswap V2 pairs on Ethereum:
-   - Time period: Since December 1, 2024
+1. Calculate daily token reserves for Uniswap V3 pools on Ethereum:
    - Measurement: End-of-day (EOD) values
 2. Calculate daily token-denominated prices:
    - Compute price of token0 in terms of token1
-   - Time period: Since December 1, 2024
    - Measurement: End-of-day (EOD) values
 
 ### Expected Output Tables
@@ -50,6 +48,7 @@ This assignment evaluates your SQL expertise and understanding of DeFi fundament
 2. Propose query optimization strategies
 3. Consider data indexing and partitioning approaches
 4. Consider how inactive trading pairs affect your solution.
+5. Consider how to fill gaps in your dataset
 
 ### Evaluation Criteria
 
