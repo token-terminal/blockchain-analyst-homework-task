@@ -49,6 +49,7 @@ This assignment evaluates your SQL expertise and understanding of DeFi fundament
 1. Implement incremental model updates
 2. Propose query optimization strategies
 3. Consider data indexing and partitioning approaches
+4. Consider how inactive trading pairs affect your solution.
 
 ### Evaluation Criteria
 
