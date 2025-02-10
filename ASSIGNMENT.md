@@ -63,6 +63,8 @@ You will be evaluated on:
 ## Tips
 
 - Use [Etherscan Token Balance Analytics](https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2?a=0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852#tokenAnalytics) to verify your reserves calculations
+- Event data contains data only on Ethereum.
+- Tokens table contains token metadata on multiple chains. Filter the table to fit your needs.
 
 ## Submission Guidelines
 
