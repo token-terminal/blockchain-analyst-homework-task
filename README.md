@@ -43,7 +43,7 @@ curl -o db/user_files/tokens.tar.xz https://storage.googleapis.com/tt-blockchain
 Extract the data to the `db/user_files` folder.
 
 ```
-tar -xvf db/user_files/uni_v3_Factory_PoolCreated.tar.xz -C db/user_files
+tar -xvf db/user_files/Factory_PoolCreated.tar.xz -C db/user_files
 tar -xvf db/user_files/uni_v3_Pool_Burn.tar.xz -C db/user_files
 tar -xvf db/user_files/uni_v3_Pool_Mint.tar.xz -C db/user_files
 tar -xvf db/user_files/uni_v3_Pool_Swap.tar.xz -C db/user_files
